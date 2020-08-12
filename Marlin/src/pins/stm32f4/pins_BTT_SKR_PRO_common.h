@@ -128,6 +128,13 @@
   #define Y_CS_PIN                          PB8
 #endif
 
+#define Y2_STEP_PIN                         PD15
+#define Y2_DIR_PIN                          PE7
+#define Y2_ENABLE_PIN                       PA3
+#ifndef Y2_CS_PIN
+  #define Y2_CS_PIN                         PG15
+#endif
+
 #define Z_STEP_PIN                          PE13
 #define Z_DIR_PIN                           PC2
 #define Z_ENABLE_PIN                        PC0
